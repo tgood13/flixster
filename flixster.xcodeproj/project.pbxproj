@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,9 @@
 		E214542723D664500092C451 /* flixsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E214542623D664500092C451 /* flixsterUITests.swift */; };
 		E214543523D666550092C451 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E214543423D666550092C451 /* MoviesViewController.swift */; };
 		E214543723D6759C0092C451 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E214543623D6759C0092C451 /* MovieCell.swift */; };
+		E2EF657423DFF273004751E7 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF657323DFF273004751E7 /* MovieDetailsViewController.swift */; };
+		E2EF657623DFFB2E004751E7 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF657523DFFB2E004751E7 /* MovieGridViewController.swift */; };
+		E2EF657823E0B0AB004751E7 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF657723E0B0AB004751E7 /* MovieGridCell.swift */; };
 		F85388365B041C0F29B94DCD /* Pods_flixster_flixsterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3F1DE0FE0560BCB1505B9A /* Pods_flixster_flixsterUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +68,9 @@
 		E214542823D664500092C451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E214543423D666550092C451 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		E214543623D6759C0092C451 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		E2EF657323DFF273004751E7 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		E2EF657523DFFB2E004751E7 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		E2EF657723E0B0AB004751E7 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +111,6 @@
 				6276222587DA6C068726EFA0 /* Pods-flixsterTests.debug.xcconfig */,
 				11DA42DF5F1A347B8966CF12 /* Pods-flixsterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -148,11 +153,14 @@
 				E214540623D6644B0092C451 /* SceneDelegate.swift */,
 				E214540823D6644B0092C451 /* ViewController.swift */,
 				E214540A23D6644B0092C451 /* Main.storyboard */,
+				E2EF657723E0B0AB004751E7 /* MovieGridCell.swift */,
 				E214540D23D664500092C451 /* Assets.xcassets */,
 				E214540F23D664500092C451 /* LaunchScreen.storyboard */,
 				E214541223D664500092C451 /* Info.plist */,
 				E214543423D666550092C451 /* MoviesViewController.swift */,
 				E214543623D6759C0092C451 /* MovieCell.swift */,
+				E2EF657323DFF273004751E7 /* MovieDetailsViewController.swift */,
+				E2EF657523DFFB2E004751E7 /* MovieGridViewController.swift */,
 			);
 			path = flixster;
 			sourceTree = "<group>";
@@ -416,6 +424,9 @@
 			files = (
 				E214540923D6644B0092C451 /* ViewController.swift in Sources */,
 				E214540523D6644B0092C451 /* AppDelegate.swift in Sources */,
+				E2EF657423DFF273004751E7 /* MovieDetailsViewController.swift in Sources */,
+				E2EF657623DFFB2E004751E7 /* MovieGridViewController.swift in Sources */,
+				E2EF657823E0B0AB004751E7 /* MovieGridCell.swift in Sources */,
 				E214540723D6644B0092C451 /* SceneDelegate.swift in Sources */,
 				E214543723D6759C0092C451 /* MovieCell.swift in Sources */,
 				E214543523D666550092C451 /* MoviesViewController.swift in Sources */,
